@@ -19,8 +19,8 @@ clc;
 % Load the historical data and dates prepared in `read_data`. Load the VAR
 % object estimated in `estimate_simple_VAR`.
 
-load read_data.mat d g2 startHist endHist;
-load estimate_simple_VAR.mat v;
+load MAT/read_data.mat d g2 startHist endHist;
+load MAT/estimate_simple_VAR.mat v;
 
 %% Define Dates
 %

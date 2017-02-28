@@ -20,8 +20,8 @@ clc;
 % `estimate_simple_VAR`. Load also the VAR estimated previously in
 % `estimate_simple_VAR` as a point of reference.
 
-load read_data.mat g2 startHist endHist;
-load estimate_simple_VAR.mat v;
+load MAT/read_data.mat g2 startHist endHist;
+load MAT/estimate_simple_VAR.mat v;
 
 %% Impose Parameter Constraints
 %

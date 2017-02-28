@@ -18,8 +18,8 @@ clc;
 %
 % Load the estimated VAR and the VAR database, and the dates.
 
-load estimate_simple_VAR.mat v vd;
-load read_data.mat startHist endHist;
+load MAT/estimate_simple_VAR.mat v vd;
+load MAT/read_data.mat startHist endHist;
 
 %% Resimulate Data
 %

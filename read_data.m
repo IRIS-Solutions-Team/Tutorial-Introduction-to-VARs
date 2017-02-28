@@ -194,7 +194,7 @@ legend('HP Gap 1,600','HP Gap 10,000 and Tunes');
 %
 % Save all data to a mat file for further use.
 
-save read_data.mat d g2 t1 t2 startHist endHist;
+save MAT/read_data.mat d g2 t1 t2 startHist endHist;
 
 %% Help on IRIS Functions Used in This File
 %

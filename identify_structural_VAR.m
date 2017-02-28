@@ -16,7 +16,7 @@ clc;
 %
 % Load the estimated reduced-form VAR object and its data.
 
-load estimate_simple_VAR.mat v vd;
+load MAT/estimate_simple_VAR.mat v vd;
 
 %% Identify Structural VAR
 %

@@ -20,8 +20,8 @@ clc;
 % historical residuals <?var?>. Load dates defining the start and end of
 % the historical data sample <?dates?>.
 
-load estimate_simple_VAR.mat v vd; %?var?
-load read_data.mat startHist endHist; %?dates?
+load MAT/estimate_simple_VAR.mat v vd; %?var?
+load MAT/read_data.mat startHist endHist; %?dates?
 
 %% Create 500 Bootstraped Data Sets
 %

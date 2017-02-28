@@ -18,7 +18,7 @@ clc;
 % Load historical data prepared in `read_data`, and the dates defining the
 % start and end of the historical sample.
 
-load read_data.mat g2 startHist endHist;
+load MAT/read_data.mat g2 startHist endHist;
 
 g2 
 startHist
@@ -155,7 +155,7 @@ title('Estimated eigenvalues');
 
 %% Save Estimated VAR and Data for Further Use
 
-save estimate_simple_VAR.mat v vd;
+save MAT/estimate_simple_VAR.mat v vd;
 
 %% Help on IRIS Functions Used in This File
 %
